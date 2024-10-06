@@ -1,0 +1,30 @@
+
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .charts {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Espaçamento entre os gráficos */
+        }
+
+        .chart-container {
+            width: 45vw;
+            height: 45vh;
+        }
